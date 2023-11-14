@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "146436362594",
+    "project_id": "supreme-hot-adventure",
+    "storage_bucket": "supreme-hot-adventure.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146436362594:android:aa4b76048893da78749c3b",
+        "android_client_info": {
+          "package_name": "jp.play.supremehot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146436362594-n8bkl5i9e7db0rdifof029gpkufb5t5u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrSFuJFx2AEHY3zaU2YIU5cxRwDRvLAns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146436362594-n8bkl5i9e7db0rdifof029gpkufb5t5u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

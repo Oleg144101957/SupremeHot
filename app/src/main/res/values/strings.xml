@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Supreme Hot Adventure</string>
+    <string name="loading">Loading...</string>
+    <string name="play_game">Play Game</string>
+    <string name="exit">Exit</string>
+    <string name="your_score_is_0">Your score is 0</string>
+    <string name="scores">Scores</string>
+</resources>

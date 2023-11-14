@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table with Name, Scores, and Status</title>
+    <style>
+        body {
+            background-color: #1a237e;
+            color: #ffffff;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            color: #ffffff; /* Text color is set to bright white */
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ffffff; /* Border color set to bright white */
+        }
+
+        th {
+            background-color: #1a237e; /* Header background color set to dark blue */
+        }
+
+        tr:nth-child(even) {
+            background-color: #1a237e; /* Even row background color set to dark blue */
+        }
+
+        tr:nth-child(odd) {
+            background-color: #0d47a1; /* Odd row background color set to a slightly darker shade of blue */
+        }
+
+        @media screen and (max-width: 600px) {
+            th, td {
+                display: block;
+            }
+
+            th {
+                text-align: center;
+            }
+
+            td {
+                text-align: left;
+                border-bottom: 1px solid #ffffff; /* Border color set to bright white */
+            }
+
+            tr {
+                border-bottom: 1px solid #ffffff; /* Border color set to bright white */
+            }
+
+            tr:nth-child(even), tr:nth-child(odd) {
+                background-color: transparent; /* Set even and odd row background to transparent for small screens */
+            }
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Scores</th>
+        <th>Status</th>
+    </tr>
+    <tr>
+        <td>Margo</td>
+        <td>32</td>
+        <td>winner</td>
+    </tr>
+    <tr>
+        <td>Krill</td>
+        <td>23</td>
+        <td>winner</td>
+    </tr>
+    <tr>
+        <td>Natalie</td>
+        <td>12</td>
+        <td>student</td>
+    </tr>
+    <tr>
+        <td>Artem</td>
+        <td>12</td>
+        <td>beginner</td>
+    </tr>
+</table>
+</body>
+</html>
